@@ -49,6 +49,7 @@ _Para hacer el deploy_
 En desarrollo: npm run dev
 En productivo: npm start
 ```
+<img width="410" alt="image" src="https://user-images.githubusercontent.com/49046247/147842353-2100fce9-2787-499e-9523-8262aba2e779.png">
 
 ## Versionado 📌
 
