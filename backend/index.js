@@ -1,5 +1,10 @@
-const app = require("./app");
+const app = require('./app');
+const config = require('./config');
 
-app.listen(app.get('port'), () => {
-    console.log('listening on port ' + app.get('port'));
+app.listen(config.port, () => {
+    console.log('listening on port ' + config.port);
 });
+
+app.get('/', (req, res) => {
+    res.send({message: 'Hola Mundo'})
+})
