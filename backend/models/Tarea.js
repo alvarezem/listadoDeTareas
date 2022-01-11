@@ -4,7 +4,7 @@ const { Schema } = mongoose;
 const TareaSchema = new Schema({
     titulo: {type: String, required: true},
     descripcion: {type: String, required: true},
-    dueño: {type: Schema.ObjectId, ref:'Client', required: true},
+    dueño: {type: Schema.ObjectId, ref:'Usuario', required: true},
     vencimiento: {type: Date, required: true},
     status: {type: Boolean, required: true}
 }, {
